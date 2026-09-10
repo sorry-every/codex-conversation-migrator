@@ -1,0 +1,16 @@
+# Local build output and temporary files
+obj/
+bin/
+*.pdb
+*.log
+self-test-error.txt
+
+# Local Codex data and generated migration packages
+.codex/
+*.codexpack.zip
+codex-restore-*/
+
+# IDE files
+.vs/
+*.user
+*.suo
